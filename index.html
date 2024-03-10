@@ -11,13 +11,12 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-
     <div class="topnav">
       <a href="/index.html">Home</a>
       <a href="/logotip.html">Logotip</a>
-      <a href="#">plujaEstels</a>
-      <a href="#">postaDeSol</a>
-      <a href="#">transparency</a>
+      <a href="/plujaEstels.html">plujaEstels</a>
+      <a href="/postaDeSol.html">postaDeSol</a>
+      <a href="/transparency.html">transparency</a>
     </div>
 
     <header class="bg-blue-500 text-white text-center p-5">
@@ -43,6 +42,69 @@
         <div class="image-info"></div>
       </div>
     </main>
+
+    <div class="p-10">
+      <div class="mb-6">
+        <h2 class="text-xl font-bold mb-2 text-blue-500">logotip:</h2>
+        <p class="mb-3 font-bold">
+          What format is the most optimal for this type of image and why? Can
+          its size be reduced even more? Would it lose quality?
+        </p>
+        <p class="text-gray-600">
+          - In general, for images with transparent areas or subtle details, PNG
+          is preferable due to its lossless compression.<br />
+
+          - An efficient format is already being used. Additional size
+          reductions may result in noticeable quality loss.
+        </p>
+      </div>
+
+      <div class="mb-6">
+        <h2 class="text-xl font-bold mb-2 text-blue-500">
+          plujaEstels and postaDeSol:
+        </h2>
+        <p class="mb-3 font-bold">
+          What format is the most optimal for this type of image and why? With
+          what compression quality does the image not lose quality? Can we
+          reduce its size even more without losing quality? What would happen if
+          we save the image several times with JPEG format?
+        </p>
+        <p class="text-gray-600">
+          - JPEG is a good format because of its ability to handle gradients and
+          color details.<br />
+          - There is no compression level at which the image does not lose
+          quality at all. JPEG compression is a lossy method, meaning there is
+          always some quality loss when applying compression.<br />
+          - It is possible to reduce the size of an image without losing
+          quality, but the amount of compression you can apply without
+          noticeable loss of quality depends on the image format.<br />
+          - Guardar la imagen varias veces en formato JPG podría acumular
+          artefactos de compresión, resultando en una pérdida progresiva de
+          calidad.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold mb-2 text-blue-500">transparency:</h2>
+        <p class="mb-3 font-bold">
+          What is the most optimal format for this type of image and why? What
+          happens when we save it in JPEG format? If our website has a white
+          background, what format would be the most optimal and why?
+        </p>
+        <p class="text-gray-600">
+          - The PNG format is optimal if quality is crucial and you want to
+          retain details and transparency without loss of quality.<br />
+          - When we save an image with transparency in JPG format, the
+          transparency is removed and filled with a solid color, usually
+          white.<br />
+          - If the website has a white background and you want to preserve the
+          transparency of the image, the PNG format would be the most optimal.
+          Otherwise, if you don't want to keep transparency, JPG would remove
+          it.
+        </p>
+      </div>
+    </div>
+
     <script src="scripts/main.js"></script>
   </body>
 </html>
